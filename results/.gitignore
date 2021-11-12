@@ -1,3 +1,11 @@
-# ignored files
+# Ignore everything
+*.log
 *.dat
-results/
+*.data
+results/basura
+results/data/position/gps
+
+# But not these files...
+!.gitignore
+!final.log
+!*.data
